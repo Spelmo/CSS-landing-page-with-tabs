@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README will bring you joy and happiness.
 
-Things you may want to cover:
+Things I may want to cover, but I'm doing it because I have to:
 
-* Ruby version
+* Ruby version 2.5.1
 
-* System dependencies
+* Team members: Marie-Charlotte Le Morvan (aka 'Goddess'), François De Saporta (aka 'Troll'), Charles Belpois (aka 'Troll Whisperer'). Needless to say who decided the nicknames for everybody.
 
-* Configuration
+* Link to the heroku app : https://css-workout.herokuapp.com/
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+BEWARE : this app is not just gorgeous, it's simply the best. Sunglasses recommended.
