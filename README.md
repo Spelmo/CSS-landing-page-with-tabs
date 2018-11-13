@@ -2,7 +2,7 @@
 
 This README will bring you joy and happiness.
 
-Things I may want to cover, but I'm doing it because I have to:
+Things I don't want to cover, but, still, I'm doing it because I have to:
 
 * Ruby version 2.5.1
 
