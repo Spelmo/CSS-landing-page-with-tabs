@@ -1,6 +1,6 @@
 
 
-// Position des divs sous les étiquettes, ce qui évite d'affecter le positionnement des onglets
+// Position des divs et onglets
 .tab > section > div
 {
   float  : right;
@@ -15,25 +15,23 @@
   margin-top: 53px;
 }
 
-// Décalage des onglets au centre de la page
 .tab > input:first-child + section > label
 {
   margin-left: 150px;
 }
 
-// Cache les boutons radios
+// Cache des boutons radios et du contenu non des tab non actives
 input
 {
   display : none;
 }
 
-// Nous masquons ensuite le contenu de tout panneau dont le bouton radio n'est pas coché
 input:not(:checked) + section > div
 {
   display : none;
 }
 
-// Affichage des onglets sur une ligne en les faisant flotter + modification du curseur
+// aspect des onglets
 label
 {
   float : left;
@@ -46,20 +44,19 @@ label
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
-  color: rgba(28, 53, 64, .70);
+  color: rgba(240, 188, 198, 1);
 }
 
-// Changement d'apparence au survol de l'onglet en question
 label:hover
 {
   background-color: rgba(255, 255, 255, 0.75);
-  color: rgba(28, 53, 64, .80);
+  color: rgba(223, 214, 241, 1);
 
 }
 
-// Equivalent de de la class active
 input:checked + section > label
 {
   background-color: rgba(255, 255, 255, 0.86);
-  color: rgba(28, 53, 64, 1);
+  color: rgba(196, 179, 229, 1);
+  box-shadow: 2px 0px 12px rgba(66, 91, 138, .3);
 }

@@ -5,24 +5,28 @@
   flex-wrap: wrap;
 }
 
+//Aspect de la carte, couleur, ombre, positionnement...
+
 .card
 {
   width: 350px;
   margin: 20px;
   padding: 20px;
 
-  box-shadow: 1px 1px 12px rgba(100, 100, 100, 0.86);
+  box-shadow: 1px 1px 12px rgba(66, 91, 138, .4);
   border-radius: 2px;
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
-  background-color: rgba(255, 255, 255, 0.86);
+  margin: 50px 0px;
+  background-color: rgba(255, 255, 255, 0.8);
 
-  color: rgba(0, 0, 0, 0.70);
+  color: rgba(0, 0, 0, 0.50);
   font-size: 13px;
   font-family: 'Open Sans', sans-serif;
 
 }
+
+//l'avatar
 
 .card-avatar
 {
@@ -32,12 +36,16 @@
   text-align: center;
 }
 
+//le titre...
+
 .card-title
 {
   text-align: center;
-  color: rgba(28, 53, 64, 1);
+  color: rgba(166, 141, 216, 1);
   font-size: 15px;
 }
+
+//le texte...
 
 .card-body
 {
