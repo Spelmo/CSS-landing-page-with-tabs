@@ -11,3 +11,5 @@ Things I don't want to cover, but, still, I'm doing it because I have to:
 * Link to the heroku app : https://css-workout.herokuapp.com/
 
 BEWARE : this app is not just gorgeous, it's simply the best. Sunglasses recommended.
+
+* This app is a student project for The Hacking Project. It is aimed at getting stronger CSS skills. Most links, while looking incredibly amazing, are non functional. What a downer! 
