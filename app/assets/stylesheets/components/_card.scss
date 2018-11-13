@@ -1,0 +1,45 @@
+.container
+{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card
+{
+  width: 350px;
+  margin: 20px;
+  padding: 20px;
+
+  box-shadow: 1px 1px 12px rgba(100, 100, 100, 0.86);
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.86);
+
+  color: rgba(0, 0, 0, 0.70);
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.card-avatar
+{
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+  text-align: center;
+}
+
+.card-title
+{
+  text-align: center;
+  color: rgba(28, 53, 64, 1);
+  font-size: 15px;
+}
+
+.card-body
+{
+  text-align: justify;
+}

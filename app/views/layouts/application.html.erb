@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Css Workout</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+      <header>
+          <%= render 'layouts/header' %>
+      </header>
+
+      <div class="tab">
+          <input name="tab" id="tab1" type="radio" checked>
+          <section>
+              <label for="tab1">MC</label>
+
+              <div class="container">
+                <div class="card">
+                  <div class="card-avatar">
+                    <%= image_tag 'mcsolaar.png', :class => "card-avatar" %>
+                  </div>
+                  <div class="card-title">
+                    <h3>MARIE-CHARLOTTE</h3>
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                  <div class="btn-blue">
+                    <a href="#" target="_blank">Linkedin</a>
+                  </div>
+                </div>
+              </div>
+          </section>
+
+          <input name="tab" id="tab2" type="radio">
+          <section>
+              <label for="tab2">FRANÇOIS</label>
+
+            <div class="container">
+              <div class="card">
+                <div class="card-avatar">
+                    <%= image_tag 'francis.png', :class => "card-avatar" %>
+                </div>
+                <div class="card-title">
+                  <h3>FRANÇOIS</h3>
+                </div>
+                <div class="card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="btn-blue">
+                  <a href="https://thehackingproject.slack.com/messages/DD7HFSUMB/team/U9Z7XV4N6/" target="_blank">Profil Slack</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <input name="tab" id="tab3" type="radio" checked>
+          <section>
+              <label for="tab3">CHARLES</label>
+              <div class="container">
+                <div class="card">
+                  <div class="card-avatar">
+                    <%= image_tag 'charly.png', :class => "card-avatar" %>
+                  </div>
+                  <div class="card-title">
+                    <h3>CHARLES</h3>
+                  </div>
+                  <div class="card-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                  <div class="btn-blue">
+                    <a href="https://thehackingproject.slack.com/messages/DD5ARQBEC/team/UD36QEARH/" target="_blank">Profil Slack</a>
+                  </div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+      <footer>
+          <%= render 'layouts/footer' %>
+      </footer>
+
+
+    <%= yield %>
+  </body>
+</html>
